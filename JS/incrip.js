@@ -64,8 +64,8 @@ function desencriptar(encriptarD){
 
 async function copiarTexto() {
     try {
-        await navigator.clipboard.writeText(mensaje.value); // Copia el texto al portapapeles
-        console.log("Texto copiado al portapapeles"); // Mensaje en la consola (puedes cambiarlo por una notificación en la UI)
+        await navigator.clipboard.writeText(mensaje.value); 
+        console.log("Texto copiado al portapapeles"); 
     } catch (err) {
         console.error("Error al copiar el texto: ", err);
     }
